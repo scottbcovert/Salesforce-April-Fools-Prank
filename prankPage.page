@@ -1,0 +1,19 @@
+<apex:page title="Prank" controller="prankPageController">
+<style>
+.homeTab .tertiaryPalette, .individualPalette .homeBlock .tertiaryPalette, .layoutEdit .individualPalette .homeBlock .tertiaryPalette {
+    background-color: #1797c0;
+    border-color: #1797c0;
+}
+</style>
+<apex:pageMessages />
+<apex:form >
+<apex:pageBlock title="Choose Your Victims">
+<apex:pageBlockButtons location="bottom">
+<apex:commandButton value="Send" action="{!sendPrankEmail}" />
+</apex:pageBlockButtons>
+<apex:pageBlockSection collapsible="false" title="Separate Emails by ;">
+<apex:inputText id="emails" label="Email(s): " value="{!victims}"/>
+</apex:pageBlockSection>
+</apex:pageBlock>
+</apex:form>
+</apex:page>

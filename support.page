@@ -1,0 +1,6 @@
+<apex:page title="Gotcha">
+<center>
+<apex:image url="{!URLFOR($Resource.aprilFools)}"/>
+<apex:image url="{!URLFOR($Resource.gotcha)}"/>
+</center>
+</apex:page>
