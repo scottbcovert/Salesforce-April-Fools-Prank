@@ -7,7 +7,7 @@ Instructions
 ------------
 
 1. Upload Apex class, static resources, and visualforce pages into your Salesforce instance.
-2. Create a new document with a label and developer name of 'prankEmail' (without quotes). For the body, upload an HTML file for how you want your email to appear to users. prankEmail.html has been provided as an example.
+2. Create a new document with a label and developer name of 'prankEmail' (without quotes). For the body, upload an HTML file for how you want your email to appear to users. prankEmail.html has been provided as an example. The description of the document will be used as the email's subject. I recommend something like 'Package Deletion Succeeded: [YOUR PACKAGE], [YOUR CURRENT VERSION]' (without quotes).
 3. Update your user settings to have an empty first name and a last name of 'support@salesforce.com' (without quotes). If you have an email signature defined you should temporarily remove it to send the email.
 4. Go to https://login.salesforce.com/apex/prankPage and enter the email address(es) of your victim(s).
 5. Enjoy the show!
